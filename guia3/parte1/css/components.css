@@ -1,0 +1,37 @@
+.app-header {
+    background-color: rgb(0, 58, 247);
+    color: aliceblue;
+    padding: 15px;
+}
+
+.app-header nav a {
+    color: aliceblue;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.app-header nav a:hover {
+    text-decoration: underline;
+}
+
+.app-content {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 12px;
+
+}
+
+.app-content h1 {
+    margin: 0;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.app-footer {
+    background-color: rgb(0, 58, 247);
+    padding: 15px;
+    font-size: italic;
+    font-weight: bold;
+    text-align: center;
+}
