@@ -1,0 +1,103 @@
+.app-card {
+    background-color: #d5e9f1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 2px 6px;
+}
+
+.app-card h2 {
+    margin-top: 0;
+    font-size: 1.sem;
+    color: rgb(7, 58, 41);
+}
+
+.app-card p {
+    font-size: 1em;
+    color: rgb(rgb(6, 82, 168), green, blue);
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    margin: 0;
+    min-height: 100vh;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0;
+}
+
+.app-card {
+    background: linear-gradient(135deg, #ffffff 60%, #e3f6ff 100%);
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 6px 24px rgba(0, 60, 120, 0.12);
+    padding: 28px 22px 22px 22px;
+    margin: 0;
+    min-width: 220px;
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s;
+}
+.app-card:hover {
+    box-shadow: 0 12px 32px rgba(0, 60, 120, 0.18);
+}
+
+.app-card h2 {
+    margin-top: 0;
+    font-size: 1.3em;
+    color: #0a3d62;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.app-card p.desc {
+    font-size: 1em;
+    color: #3c6382;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.app-card .img {
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.16);
+    margin-bottom: 24px;
+    margin-top: 12px;
+    width: 350px;
+    height: 220px;
+    object-fit: contain;
+    background: #f6f6f6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-card p.Precio {
+    font-size: 1.1em;
+    color: #0097e6;
+    font-weight: 500;
+    margin-top: 6px;
+    text-align: center;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: stretch;
+}
